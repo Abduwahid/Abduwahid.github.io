@@ -11,10 +11,19 @@ body:after {
 }
 @font-face {
   font-family: 'FontAwesome';
+  src: url("http://www.ulinix.com/home/images/UkijTuzTom.eot?#iefix");
+  src: local('UKIJ Tuz Tom'), local('UKIJ Tuz Tom'), url("UkijTuzTom.ttf");
   src: url("fonts/fontawesome-webfont.eot");
   src: url("fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/fontawesome-webfont.woff") format("woff"), url("fonts/fontawesome-webfont.ttf") format("truetype"), url("fonts/fontawesome-webfont.svgz#FontAwesomeRegular") format("svg"), url("fonts/fontawesome-webfont.svg#FontAwesomeRegular") format("svg");
   font-weight: normal;
   font-style: normal;
+}
+@font-face {
+  font-family: 'UKIJ Tuz Tom';
+  font-style: normal;
+  font-weight: normal;
+  src: url("http://www.ulinix.com/home/images/UkijTuzTom.eot?#iefix");
+  src: local('UKIJ Tuz Tom'), local('UKIJ Tuz Tom'), url("UkijTuzTom.ttf");
 }
 html,
 body,
@@ -137,7 +146,7 @@ body,
   height: 100%;
 }
 body {
-  font-family: "微软雅黑", 'Microsoft JhengHei', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+  font-family: 'UKIJ Tuz Tom', "微软雅黑", 'Microsoft JhengHei', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
   font-size: 16px;
   background: #3f3f3f;
   color: #999;
