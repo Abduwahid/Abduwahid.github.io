@@ -2578,6 +2578,7 @@ color
 .article-title {
   color: #999;
   margin-left: 0px;
+  font-family: 'UKIJ Tuz Tom', "微软雅黑", 'Microsoft JhengHei', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
   font-weight: initial;
   line-height: 35px;
   margin-bottom: 20px;
@@ -2626,6 +2627,7 @@ color
   line-height: 1.8em;
   padding-right: 30px;
   padding-left: 30px;
+  font-family: 'UKIJ Tuz Tom', "微软雅黑", 'Microsoft JhengHei', Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
 }
 .article-entry p {
   margin-top: 10px;
